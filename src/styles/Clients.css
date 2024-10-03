@@ -1,0 +1,116 @@
+#search-clients-input {
+    border: none;
+    border-bottom: 1px grey solid;
+    height: 40px;
+    width: 300px;
+    margin-right: 5px;
+    padding-left: 10px;
+    background-color: #ecf0f1;
+}
+
+#select-filter {
+    height: 43px;
+    width: 130px;
+    border: none;
+    border-bottom: 1px grey solid;
+    cursor: pointer;
+    background-color: #ecf0f1;
+}
+
+#search-container {
+    margin: 10px;
+}
+
+#clients-page{
+    margin: 20px;
+    position: relative;
+}
+
+#paging {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    user-select: none;
+}
+
+#paging > i {
+    display: grid;
+    align-self: center;
+    cursor: pointer;
+}
+
+#paging > .fa-chevron-left {
+    justify-self: end;
+}
+
+#paging > p {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+#table {
+    margin: 10px;
+}
+
+#modal {
+    position: absolute;
+    top: 25vh;
+    left: 35vw;
+    background-color: #1D2623;
+    color: white;
+    width: 300px;
+    height: 200px;
+    opacity: 0.95;
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    /* justify-content: center; */
+    padding: 10px;
+}
+
+#exit-modal-btn {
+    cursor: pointer;
+}
+#modal > div {
+    position: relative;
+}
+
+#modal > div > input {
+    background-color: #1D2623;
+    border: none;
+    color: white;
+    border-bottom: 0.75px white solid;
+    width: 125px;
+    margin-left: 25px;
+    /* display: grid; */
+    position: absolute;
+    right: 25px;
+    font-size: 16px;
+}
+
+/* #modal > div > i {
+
+} */
+
+#modal > div > span {
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+#clients-update-btn {
+    cursor: pointer;
+    background-color: #F7CE3E;
+    color: black;
+    width: 250px;
+    height: 35px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+}
+
+#clients-update-btn:hover {
+    background-color: rgb(240, 194, 30);
+}
